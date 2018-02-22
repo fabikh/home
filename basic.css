@@ -40,9 +40,9 @@ img
 {
 	border-color : AliceBlue;
 	border-style : solid;
-	border-width : small;
-	padding : 0%
-	margin : 2%
+	border-width : thin;
+	padding : 0%;
+	margin : 2%;
 }
 
 table, th, td
