@@ -1,4 +1,4 @@
-p,ol,ul, table, td
+p,ol,ul, table
 {
 	font-family : "comic sans MS", serif;
 	font-size : 13pt;
@@ -16,9 +16,39 @@ h2
 	font-size : 25pt;
 }
 
+h3
+{
+	font-size : 20pt;
+}
+
+h4
+{
+	font-size : 17pt;
+}
+
 body 
 {
 	background-color : Grey;
+}
+
+a
+{
+	color : Aqua;
+}
+
+img
+{
+	border-color : AliceBlue;
+	border-style : solid;
+	border-width : 2px;
+	padding : 0%;
+	margin-right : 0%;
+}
+
+table
+{
+	margin-left : 0%;
+	width : 100%
 }
 
 .heading
@@ -36,41 +66,13 @@ body
 {
 	font-family : serif;
 }
-img
-{
-	border-color : AliceBlue;
-	border-style : solid;
-	border-width : 2px;
-	padding : 0%;
-	margin-right : 0%;
-}
-
-h4
-{
-	font-size : 17pt;
-}
-
-h3
-{
-	font-size : 20pt;
-}
-
-table
-{
-	margin-left : 0%;
-	width : 100%
-}
 
 .image
 {
 	width : 250px;
 }
 
-a
-{
-	color : Aqua;
-}
-
+/* Navbar itself*/
 .navbar 
 {
   overflow: hidden;
@@ -89,7 +91,6 @@ a
   font-family : Serif;
 }
 
-/* The dropdown container */
 .dropdown 
 {
   float: left;
@@ -109,7 +110,7 @@ a
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
+/* Adds silver background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .button
 {
   background-color: Silver;
@@ -135,7 +136,7 @@ a
   text-align: left;
 }
 
-/* Add a beige background color to dropdown links on hover */
+/* Dropdown links on hover */
 .content a:hover
  {
   background-color: Silver;
