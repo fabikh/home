@@ -2,7 +2,7 @@ p,ol,ul, table
 {
 	font-family : "comic sans MS", serif;
 	font-size : 13pt;
-	text-align : center;
+	text-align : right;
 	color : LightSkyBlue;
 }
 
@@ -66,4 +66,9 @@ h3
 td
 {
 	padding : 5%;
+}
+
+table
+{
+	margin-right : 0%;
 }
