@@ -42,15 +42,18 @@ img
 	border-style : solid;
 	border-width : thin;
 	padding : 0%;
-	margin : 2%;
+	margin-right : 0%;
 }
 
+/* only for top table*/
 .inline
 {
-	border : 2px solid AliceBlue;
+	border : 2px solid BlueViolet;
 	border-collapse : collapse;
-	width : 100%;
 	padding : 2px;
+	width : 60px;
+	text-align : center;
+	background-color : BlueViolet;
 }
 
 h4
@@ -63,12 +66,18 @@ h3
 	font-size : 20pt;
 }
 
-td
-{
-	padding : 5%;
-}
-
 table
 {
 	margin-left : 0%;
+	width : 100%
+}
+
+.image
+{
+	width : 250px;
+}
+
+a
+{
+	color : Aqua;
 }
