@@ -40,20 +40,9 @@ img
 {
 	border-color : AliceBlue;
 	border-style : solid;
-	border-width : thin;
+	border-width : 2px;
 	padding : 0%;
 	margin-right : 0%;
-}
-
-/* only for top table*/
-.inline
-{
-	border : 2px solid BlueViolet;
-	border-collapse : collapse;
-	padding : 2px;
-	width : 60px;
-	text-align : center;
-	background-color : BlueViolet;
 }
 
 h4
@@ -80,4 +69,80 @@ table
 a
 {
 	color : Aqua;
+}
+
+.navbar 
+{
+  overflow: hidden;
+  background-color: CadetBlue;
+  font-family: Serif;
+}
+
+/* Links inside the navbar */
+.navbar a
+ {
+  float: left;
+  font-size: 16pt;
+  color: Aqua;
+  text-align: center;
+  padding: 14px 84px;
+  font-family : Serif;
+}
+
+/* The dropdown container */
+.dropdown 
+{
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .button 
+{
+  font-size: 16pt; 
+  border: none;
+  outline: none;
+  color: Aqua;
+  padding: 14px 84px;
+  background-color: CadetBlue;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .button
+{
+  background-color: Silver;
+}
+
+/* Dropdown content (hidden by default) */
+.content
+ {
+  display: none;
+  position: absolute;
+  background-color: Silver;
+  min-width: 220px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.content a 
+{
+  float: none;
+  color: aqua;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+/* Add a beige background color to dropdown links on hover */
+.content a:hover
+ {
+  background-color: Silver;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .content 
+{
+  display: block;
 }
